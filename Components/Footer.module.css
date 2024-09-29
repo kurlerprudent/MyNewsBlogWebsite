@@ -1,0 +1,70 @@
+.container{
+    width: 97%;
+    height: 470px;
+    display: flex;
+    background-color: var(--darkblue);
+    color: white;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+    gap: 70px;
+   
+ 
+}
+.firstSection{
+    width: 70%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.form{
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.navLinks{
+    width:30% ;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}.link{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+.subs{
+    font-size: 26px;
+    font-weight: 700;
+
+}
+.mailText{
+    font-size: 19px;
+}
+.inputMail{
+    background-color: var(--darkblue);
+    border-top: 0px;
+    border-left: 0;
+    border-right: 0;
+    width: 530px;
+    padding-top: 20px;
+    
+}
+.socialMediaIcons{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.secondSectionContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.insideContainer{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}

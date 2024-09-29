@@ -4,9 +4,72 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    color: #0E1C40;
     
 }
 
 .headerText{
     font-size: 160px;
+}
+.headerTextTwo{
+    margin-left: 3px;
+    font-size: 22px;
+    margin-top: 9px;
+}
+.videoContainer{
+    width: 100%;
+    height: 510px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.onVideoContainer{
+    background-color: rgb(54, 54, 209);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    width: 80%;
+    height: 60px;
+    position: absolute;
+    bottom: -25px;
+    margin-left: 10%;
+    margin-right: 10%;
+    overflow: hidden;
+}
+.topic{
+    color: white;
+    font-size: 26px;
+    font-weight: 700;
+    width: 50%;
+    margin-left: 10px;
+   
+}
+
+.textIn{
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    animation: textInOut 8s infinite ease-in-out;
+    opacity: 0;
+    width: 40%;
+    
+}
+
+@keyframes textInOut {
+    0%{
+        transform: translateX(50%);
+        opacity:0.5;
+    }
+    20%{
+        transform: translateX(0);
+        opacity: 1;
+    }
+    80%{
+        transform: translateX(-50%);
+        opacity: 0.5;
+    }  
+    100%{
+        transform: translateX(-100%);
+        opacity: 0;
+    }
 }
