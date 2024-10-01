@@ -18,13 +18,20 @@
     align-items: center;
 }
 .seconSection{
-    writing-mode: vertical-lr;
-   text-orientation:sideways-left;
+   transform: rotate(270deg)translate(0, 100%);
+   transform-origin: left top;
+   white-space: nowrap;
     margin-bottom: 40px;
-    font-size: 16px;
+    font-size: 20px;
     font-weight: 600;
-    color: var(--darkblue);
+    background: linear-gradient(to right, rgb(84, 108, 4), rgb(4, 4, 81), rgb(69, 48, 226));
     display: flex;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     align-items: center;
+    width: 120px;
 
+}
+.seconSection:hover{
+    cursor: pointer;
 }

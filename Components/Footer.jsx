@@ -26,14 +26,14 @@ const Footer = () => {
               </div>
           </div>
           <div className={Styles.socialMediaIcons}>
-              <Facebook/>
-              <WhatsApp/>
-              <Instagram/>
-              <Twitter/>
+              <Facebook className={Styles.facebook}/>
+              <WhatsApp className={Styles.whatsApp}/>
+              <Instagram className={Styles.instagram}/>
+              <Twitter className={Styles.twitter}/>
           </div>
         </div>
         <div className={Styles.navLinks}>
-          <Link className={Styles.link} href='/'>Home</Link>
+          <Link className={Styles.link } href='/'>Home</Link>
           <Link className={Styles.link} href='/about'>About</Link>
           <Link className={Styles.link} href='/news'>News</Link>
           <Link className={Styles.link} href='/contact'>Contact</Link>

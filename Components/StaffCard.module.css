@@ -1,0 +1,26 @@
+.container{
+    width: 310px;
+    height: 610px;
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+}
+.imageContainer{
+    width: 100%;
+    height: 50%;
+}
+.title{
+    font-size: 20px;
+    color: var(--normalblue);
+    font-weight: 600;
+}
+.content{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.socialMediaIcons{
+    display: flex;
+    gap: 10px;
+}

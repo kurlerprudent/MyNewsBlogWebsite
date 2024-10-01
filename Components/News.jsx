@@ -5,21 +5,12 @@ import NewsCard from './NewsCard'
 const News = () => {
   return (
     <div className={Styles.container}>
-        <div>
-        <h3 className={Styles.news}>News</h3>
-        </div>
+      <div className={Styles.news} ><h3>News</h3></div>
+      <div className={Styles.newsContainer}>
+        <NewsCard/>
         
-        <div className={Styles.newsSection}>
-
-            <Link href='/news'><NewsCard/></Link>
-            <Link href='/news'><NewsCard/></Link>
-            <Link href='/news'><NewsCard/></Link>
-            <Link href='/news'><NewsCard/></Link>
-            <Link href='/news'><NewsCard/></Link>
-            <Link href='/news'><NewsCard/></Link>
-         
-        </div>
-   </div>
+      </div>
+    </div>
   )
 }
 

@@ -1,20 +1,21 @@
 .container{
-    margin-top: 50px;
-    width: 65%;
-    background-color:var(--background);
+    width: 70%;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    gap: 20px;
+    gap: 40px;
+    margin-top: 50px;
+    padding: 30px;
 }
-.news{
-    font-size: 27px;
-    font-weight: 600;
-}
-.newsSection{
+.newsContainer{
+    width: 100%;
     display: flex;
     flex-direction: row;
-    gap: 10px;
     flex-wrap: wrap;
-    justify-content: center;
+    gap: 20px;
+
+}
+.news{
+    color: var(--normalblue);
+    font-size: 24px;
+    font-weight: 700;
 }
