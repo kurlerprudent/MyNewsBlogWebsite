@@ -1,6 +1,6 @@
 import { Divider } from '@mui/material'
 import Styles from './Header.module.css'
-import news from '../Images/news.mp4'
+import news from '../public/news.mp4'
 
 const Header = () => {
   return (
