@@ -19,7 +19,7 @@ const NormalHeader = ({heroName,pageTitle}) => {
     </div>
 
     <div className={Styles.imageContainer}>
-    <Image src={heroName} style={{width:'100%', height:'100%', objectFit:'cover'}}/>
+    <Image alt='image' src={heroName} style={{width:'100%', height:'100%', objectFit:'cover'}}/>
 
     <div className={Styles.onImageContainer}>
         <h4 className={Styles.topic}>{pageTitle}</h4>

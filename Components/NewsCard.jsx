@@ -27,8 +27,8 @@ const NewsCard = () => {
   return (
     <>  {
         newsData && newsData.map((data)=>(
-        <Link href={`/news/${data.id}`}>
-        <div key={data.id} className={Styles.container}>
+        <Link key={data.id} href={`/news/${data.id}`}>
+        <div  className={Styles.container}>
             <div className={Styles.imageContainer}>
                 <Image 
                 src={data.image}

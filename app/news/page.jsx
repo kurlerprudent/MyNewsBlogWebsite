@@ -49,7 +49,7 @@ const page = () => {
             
             <div key={data.id} className={Styles.newsCard}>
               <div className={Styles.imageContainer}>
-                <Image src={data.image} style={{width:'100%', height:'100%',objectFit:'cover'}}/>
+                <Image alt="image" src={data.image} style={{width:'100%', height:'100%',objectFit:'cover'}}/>
               </div>
               <div className={Styles.content} >
                 <div className={Styles.adminAndDateAndMenu}>
