@@ -1,6 +1,6 @@
 import NormalHeader from '@/Components/NormalHeader'
 import Styles from './page.module.css'
-import hero from '../../Images/hero4.jpg'
+import hero from '../../Images/hero3.jpg'
 import { Facebook, LinkedIn, Twitter, YouTube } from '@mui/icons-material'
 import { Button, Divider, TextField } from '@mui/material'
 import { blue } from '@mui/material/colors'
