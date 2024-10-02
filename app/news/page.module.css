@@ -1,0 +1,113 @@
+
+
+.container{
+    background-color: var(--background2);
+    width: 97%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding-inline: 60px;
+    margin-top: 50px;
+    padding-top: 5%;
+}
+.nextContainer{
+    width: 80%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+}
+.newsLinks{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    flex-wrap: wrap;
+
+   
+}
+.links{
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--darkblue);
+}
+
+.allNewsCardsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+}
+.newsCard{
+    width: 100%;
+    height: 330px;
+    background-color: var(--background);
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    background-color: azure;
+}
+.imageContainer{
+    width: 40%;
+    height: 100%;
+}
+.content{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 30px;
+}
+.adminAndDateAndMenu{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+}
+.adminAndDate{
+    font-size: 14px;
+    font-weight: 400;
+}
+.title{
+    font-size: 26px;
+    font-weight: 800;
+    margin-top: 5px;
+}
+.description{
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+.viewsAndCommentsAndLikes{
+    display: flex;
+    flex-direction: row;
+   justify-content: space-between;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top: 5px;
+}
+.viewsAndComments{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+.likes{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.views{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.comments{
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}

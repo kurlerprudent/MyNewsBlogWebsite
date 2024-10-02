@@ -1,0 +1,19 @@
+.container{
+  background-color: var(--background);
+}
+
+.content{
+  display: flex;
+  flex-direction: column;
+
+  margin-left: 10%;
+  margin-right: 10%;
+  
+  
+}
+.newsContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  
+}
